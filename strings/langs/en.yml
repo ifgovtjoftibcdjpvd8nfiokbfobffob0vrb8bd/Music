@@ -174,8 +174,8 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> 𝖴𝗇𝗄𝗇𝗈𝗐𝗇 𝖣
 queue_7 : "\n𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗈𝗐 𝖳𝗈 𝖦𝖾𝗍 𝖶𝗁𝗈𝗅𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖫𝗂𝗌𝗍 ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n💞 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n💮 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🌼 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ꎭ𝛊 𝚾 𝐌𝛖𝛊𝚜𝛆୧‧₊˚ 🍓</b></blockquote>\n\n<b><blockquote>💝 𝑻𝒊𝒕𝒍𝒆 :</b> <a href={0}>{1}</a>\n<b>🦋 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🌸 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑩𝒚 :</b> {3}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
-stream_2 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ꎭ𝛊 𝚾 𝐌𝛖𝛊𝚜𝛆୧‧₊˚ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ :  [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
+stream_1 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ᴍ𝛊 𝐌𝛖𝛊𝚜𝛆‧₊˚ 🍓</b></blockquote>\n\n<b><blockquote>💝 𝑻𝒊𝒕𝒍𝒆 :</b> <a href={0}>{1}</a>\n<b>🦋 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🌸 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑩𝒚 :</b> {3}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
+stream_2 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ᴍ𝛊 𝐌𝛖𝛊𝚜𝛆‧₊˚ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ :  [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
 
 
 CLOSE_BUTTON  : "ᯤ 𝐂ʟᴏsᴇ ᯤ"
