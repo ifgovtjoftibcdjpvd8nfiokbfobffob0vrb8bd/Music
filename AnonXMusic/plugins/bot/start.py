@@ -35,7 +35,7 @@ async def start_pm(client, message: Message, _):
         
         if name.startswith("help"):
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgEAAxkBAAENzwABZ7H96cC6jELihegWHEJZnSxWcQYAAgMJAALjeAQAAaY1zaXqGj3iNgQ")
+            await message.reply_sticker("CAACAgQAAxkBAAEN0Thns3Yxq70Tiw8aa0MCXGLhgqEEtAACGhIAAhjUoFNPRHAPUbukBjYE")
             return await message.reply_video(
                 video=config.START_VIDEO_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
