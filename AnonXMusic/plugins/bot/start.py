@@ -35,7 +35,7 @@ async def start_pm(client, message: Message, _):
         
         if name.startswith("help"):
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgQAAxkBAAEN0Thns3Yxq70Tiw8aa0MCXGLhgqEEtAACGhIAAhjUoFNPRHAPUbukBjYE")
+            await message.reply_sticker("CAACAgEAAxkBAAENzwABZ7H96cC6jELihegWHEJZnSxWcQYAAgMJAALjeAQAAaY1zaXqGj3iNgQ")
             return await message.reply_video(
                 video=config.START_VIDEO_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -104,7 +104,7 @@ async def start_pm(client, message: Message, _):
         
         await baby.delete()
 
-        await message.reply_sticker("CAACAgUAAxkBAAEBAlBnj7y4xNOhQz6boX64khPjYiVj2wACnAsAAsZcIVeYLHxkLmeV9DYE")
+        await message.reply_sticker("CAACAgEAAxkBAAENzwABZ7H96cC6jELihegWHEJZnSxWcQYAAgMJAALjeAQAAaY1zaXqGj3iNgQ")
         await message.reply_video(
             video=config.START_VIDEO_URL,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
