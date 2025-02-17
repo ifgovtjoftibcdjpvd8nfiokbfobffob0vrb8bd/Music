@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = "27934563"
-API_HASH = "50516d67db72b07709904734c69a658b"
+API_ID = ""
+API_HASH = ""
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8004440473:AAG5BESHY2eHonzjfxnhMC5g4r5DeufEOO8"
+BOT_TOKEN = ""
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://jazibot02:jazibot02@cluster0.s7fhq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = ""
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 
@@ -22,10 +22,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 ADS_MODE = getenv("ADS_MODE", None)
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002266615669"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002323856532"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7057381827))
+OWNER_ID = int(getenv("OWNER_ID", 7678359785))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Block2002/Samrio",
+    "https://github.com/DEV-ZTX/Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
