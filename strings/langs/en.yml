@@ -163,7 +163,7 @@ str_2 : "➻ ᴠᴀʟɪᴅ sᴛʀᴇᴀᴍ ᴠᴇʀɪғɪᴇᴅ.\n\nᴘʀᴏᴄ�
 str_3 : "ғᴀɪʟᴇᴅ ᴛᴏ sᴛʀᴇᴀᴍ ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ sᴛʀᴇᴀᴍ, ɴᴏ ʟɪᴠᴇ ꜰᴏʀᴍᴀᴛ ꜰᴏᴜɴᴅ."
 
 ping_1 : "{0} 𝐈s 𝐏ɪɴɢɪɴɢ..."
-ping_2 : "<b><blockquote> 🏓 𝐏ᴏɴɢ : <code>{0}ᴍs</code>\n\n<b><u>{1} 𝐒ʏsᴛᴇᴍ 𝐒ᴛᴀᴛs :</u></b>\n\n↬ 𝐔ᴘᴛɪᴍᴇ : {2}\n↬ 𝐑ᴀᴍ : {3}\n↬ 𝐂ᴘᴜ : {4}\n↬ 𝐃ɪsᴋ : {5}\n↬ 𝐏ʏ-𝐓ɢᴄᴀʟʟs : <code>{6}ᴍs</code></blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [⸢ 𝐉𝛂𝚣𝛊 𝚾 𝐒𝛂𝙼 ⸥](https://t.me/Jazi_sam)</b></blockquote>"
+ping_2 : "<b><blockquote> 🏓 𝐏ᴏɴɢ : <code>{0}ᴍs</code>\n\n<b><u>{1} 𝐒ʏsᴛᴇᴍ 𝐒ᴛᴀᴛs :</u></b>\n\n↬ 𝐔ᴘᴛɪᴍᴇ : {2}\n↬ 𝐑ᴀᴍ : {3}\n↬ 𝐂ᴘᴜ : {4}\n↬ 𝐃ɪsᴋ : {5}\n↬ 𝐏ʏ-𝐓ɢᴄᴀʟʟs : <code>{6}ᴍs</code></blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
 
 queue_1 : "» ғᴇᴛᴄʜɪɴɢ ǫᴜᴇᴜᴇ...\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
 queue_2 : "𝖰𝗎𝖾𝗎𝖾 𝖤𝗆𝗉𝗍𝗒 ."
@@ -175,7 +175,7 @@ queue_7 : "\n𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n💞 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n💮 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🌼 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
 stream_1 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐉𝛂𝚣𝛊 𝚾 𝐌𝛖𝛊𝚜𝛆୧ ‧₊˚ 🍓</b></blockquote>\n\n<b><blockquote>💝 𝑻𝒊𝒕𝒍𝒆 :</b> <a href={0}>{1}</a>\n<b>🦋 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🌸 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑩𝒚 :</b> {3}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
-stream_2 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐉𝛂𝚣𝛊 𝚾 𝐌𝛖𝛊𝚜𝛆୧ ‧₊˚ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [⸢ 𝐉𝛂𝚣𝛊 𝚾 𝐒𝛂𝙼 ⸥](https://t.me/Jazi_sam)</b></blockquote>"
+stream_2 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐉𝛂𝚣𝛊 𝚾 𝐌𝛖𝛊𝚜𝛆୧ ‧₊˚ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ :  [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
 
 
 CLOSE_BUTTON  : "ᯤ 𝐂ʟᴏsᴇ ᯤ"
