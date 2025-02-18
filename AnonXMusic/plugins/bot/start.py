@@ -56,7 +56,7 @@ async def start_pm(client, message: Message, _):
     await baby.delete()
 
     # Send sticker first
-    await message.reply_sticker("CAACAgUAAxkBAAEN1MFntA-IBAOibk7xjC1cbUFZnn0fLgACKxIAAkigoVXMIJAE5A66sTYE")
+    await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
     await asyncio.sleep(1)  # Short delay before sending video
 
     # Send the start video separately
