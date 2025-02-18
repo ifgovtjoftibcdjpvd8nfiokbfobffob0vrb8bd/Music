@@ -1,5 +1,5 @@
 import time
-
+import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -45,11 +45,13 @@ async def start_pm(client, message: Message, _):
         if name.startswith("sud"):
             await sudoers_list(client=client, message=message, _=_)
             if await is_on_off(2):
-                return await app.send_message(
+                await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} checked <b>sudolist</b>.\n\n"
-                         f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
-                         f"<b>Username:</b> @{message.from_user.username}",
+                    text=(
+                        f"{message.from_user.mention} checked <b>sudolist</b>.\n\n"
+                        f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                        f"<b>Username:</b> @{message.from_user.username}"
+                    ),
                 )
             return
 
@@ -87,21 +89,25 @@ async def start_pm(client, message: Message, _):
             )
 
             if await is_on_off(2):
-                return await app.send_message(
+                await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} searched for track information.\n\n"
-                         f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
-                         f"<b>Username:</b> @{message.from_user.username}",
+                    text=(
+                        f"{message.from_user.mention} searched for track information.\n\n"
+                        f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                        f"<b>Username:</b> @{message.from_user.username}"
+                    ),
                 )
+            return
+
     else:
         out = private_panel(_)
 
-        # Simulating loading animation
+        # Improved Loading Animation
         baby = await message.reply_text("**▒▒▒▒▒▒▒▒▒▒ 0%**")
         for i in range(10, 110, 10):
             await baby.edit_text(f"**{'█' * (i // 10)}{'▒' * (10 - i // 10)} {i}%**")
-            time.sleep(0.2)  # Short delay for effect
-        
+            await asyncio.sleep(0.2)  # Proper async sleep
+
         await baby.delete()
 
         await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
@@ -112,11 +118,13 @@ async def start_pm(client, message: Message, _):
         )
 
         if await is_on_off(2):
-            return await app.send_message(
+            await app.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"{message.from_user.mention} started the bot.\n\n"
-                     f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
-                     f"<b>Username:</b> @{message.from_user.username}",
+                text=(
+                    f"{message.from_user.mention} started the bot.\n\n"
+                    f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                    f"<b>Username:</b> @{message.from_user.username}"
+                ),
             )
 
 
@@ -130,7 +138,7 @@ async def start_gp(client, message: Message, _):
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
-    return await add_served_chat(message.chat.id)
+    await add_served_chat(message.chat.id)
 
 
 @app.on_message(filters.new_chat_members, group=-1)
@@ -176,4 +184,4 @@ async def welcome(client, message: Message):
                 await add_served_chat(message.chat.id)
                 await message.stop_propagation()
         except Exception as ex:
-            print(ex)
+            print(f"Error in welcome handler: {ex}")
