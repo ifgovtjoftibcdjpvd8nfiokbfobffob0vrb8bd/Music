@@ -35,7 +35,7 @@ async def start_pm(client, message: Message, _):
         
         if name.startswith("help"):
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
+            await message.reply_sticker("CAACAgUAAxkBAAEN1MFntA-IBAOibk7xjC1cbUFZnn0fLgACKxIAAkigoVXMIJAE5A66sTYE")
             await asyncio.sleep(1)  # Delay to separate sticker from video
             return await message.reply_video(
                 video=config.START_VIDEO_URL,
@@ -112,7 +112,7 @@ async def start_pm(client, message: Message, _):
         await baby.delete()
 
         # Send sticker first
-        await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
+        await message.reply_sticker("CAACAgUAAxkBAAEN1MFntA-IBAOibk7xjC1cbUFZnn0fLgACKxIAAkigoVXMIJAE5A66sTYE")
         await asyncio.sleep(1)  # Short delay to separate sticker from video
 
         # Send video separately
