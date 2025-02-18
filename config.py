@@ -11,7 +11,7 @@ API_ID = "28928028"
 API_HASH = "b097202e877124392f4851d215fa8f3a"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7595735004:AAEaCSC6hgEIqtME3qlbZ9rVjBmQg39ihZ0"
+BOT_TOKEN = "8144062502:AAHmiO-YUggVSWkwKuVPaoaOqXGvzEYwPKc"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority"
@@ -80,24 +80,24 @@ autoclean = []
 confirmer = {}
 
 START_VIDEO_URL = getenv(
-    "START_VIDEO_URL", "https://envs.sh/hDP.mp4"
+    "START_VIDEO_URL", "https://telegram.me/share/url?url=https://files.catbox.moe/9z4hr1.mp4"
 )
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/hDu.jpg"
+    "START_IMG_URL", "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/hDu.jpg"
+    "PING_IMG_URL", "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/hDu.jpg"
-STATS_IMG_URL = "https://envs.sh/hDu.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/hDu.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/hDu.jpg"
-STREAM_IMG_URL = "https://envs.sh/hDu.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/hDu.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/hDu.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/hDu.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/hDu.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/hDu.jpg"
+PLAYLIST_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+STATS_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+TELEGRAM_AUDIO_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+TELEGRAM_VIDEO_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+STREAM_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+SOUNCLOUD_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+YOUTUBE_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegram.me/share/url?url=https://files.catbox.moe/1x4unf.jpg"
 
 
 def time_to_seconds(time):
