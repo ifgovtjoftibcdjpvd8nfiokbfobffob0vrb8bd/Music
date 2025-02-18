@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from youtubesearchpython.__future__ import VideosSearch
+from youtubesearchpython import VideosSearch  # Fixed import
 
 import config
 from AnonXMusic import app
@@ -26,14 +26,16 @@ from strings import get_string
 
 # Function to send the start video separately
 async def send_start_video(chat_id):
-    """Send the start video separately with a slight delay."""
+    """Send the start video separately with better error handling."""
+    if not config.START_VIDEO_URL:
+        print("No START_VIDEO_URL configured.")
+        return None
     try:
-        sent_video = await app.send_video(
+        return await app.send_video(
             chat_id=chat_id, 
             video=config.START_VIDEO_URL, 
             supports_streaming=True
         )
-        return sent_video
     except Exception as e:
         print(f"Error sending start video: {e}")
         return None
@@ -45,38 +47,108 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     await message.react("❤️")
 
-    out = private_panel(_)
+    if len(message.text.split()) > 1:
+        name = message.text.split(None, 1)[1]
 
-    # Animated Loading Text
-    baby = await message.reply_text("**▒▒▒▒▒▒▒▒▒▒ 0%**")
-    for i in range(10, 110, 10):
-        await baby.edit_text(f"**{'█' * (i // 10)}{'▒' * (10 - i // 10)} {i}%**")
-        await asyncio.sleep(0.2)  # Smooth delay
+        if name.startswith("help"):
+            keyboard = help_pannel(_)
+            await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
+            await asyncio.sleep(1)  # Short delay before sending video
+            await send_start_video(message.chat.id)
+            return await message.reply_text(
+                text=_["help_1"].format(config.SUPPORT_CHAT),
+                reply_markup=keyboard,
+            )
 
-    await baby.delete()
+        if name.startswith("sud"):
+            await sudoers_list(client=client, message=message, _=_)
+            if await is_on_off(2):
+                await app.send_message(
+                    chat_id=config.LOGGER_ID,
+                    text=(
+                        f"{message.from_user.mention} checked <b>sudolist</b>.\n\n"
+                        f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                        f"<b>Username:</b> @{message.from_user.username}"
+                    ),
+                )
+            return
 
-    # Send sticker first
-    await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
-    await asyncio.sleep(1)  # Short delay before sending video
+        if name.startswith("inf"):
+            m = await message.reply_text("🔎 Searching...")
+            query = name.replace("info_", "", 1)
+            results = VideosSearch(query, limit=1)
+            search_results = await results.next()
 
-    # Send the start video separately
-    await send_start_video(message.chat.id)
+            for result in search_results["result"]:
+                title = result["title"]
+                duration = result["duration"]
+                views = result["viewCount"]["short"]
+                thumbnail = result["thumbnails"][0]["url"].split("?")[0]
+                channellink = result["channel"]["link"]
+                channel = result["channel"]["name"]
+                link = result["link"]
+                published = result["publishedTime"]
 
-    # Send the text message with buttons
-    await message.reply_text(
-        text=_["start_2"].format(message.from_user.mention, app.mention),
-        reply_markup=InlineKeyboardMarkup(out),
-    )
+            searched_text = _["start_6"].format(
+                title, duration, views, published, channellink, channel, app.mention
+            )
 
-    if await is_on_off(2):
-        await app.send_message(
-            chat_id=config.LOGGER_ID,
-            text=(
-                f"{message.from_user.mention} started the bot.\n\n"
-                f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
-                f"<b>Username:</b> @{message.from_user.username}"
-            ),
+            key = InlineKeyboardMarkup(
+                [[
+                    InlineKeyboardButton(text=_["S_B_8"], url=link),
+                    InlineKeyboardButton(text=_["S_B_9"], url=config.SUPPORT_CHAT),
+                ]]
+            )
+
+            await m.delete()
+            await app.send_photo(
+                chat_id=message.chat.id,
+                photo=thumbnail,
+                caption=searched_text,
+                reply_markup=key,
+            )
+
+            if await is_on_off(2):
+                await app.send_message(
+                    chat_id=config.LOGGER_ID,
+                    text=(
+                        f"{message.from_user.mention} searched for track information.\n\n"
+                        f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                        f"<b>Username:</b> @{message.from_user.username}"
+                    ),
+                )
+            return
+
+    else:
+        out = private_panel(_)
+
+        # Improved Loading Animation
+        baby = await message.reply_text("**▒▒▒▒▒▒▒▒▒▒ 0%**")
+        for i in range(10, 110, 10):
+            await baby.edit_text(f"**{'█' * (i // 10)}{'▒' * (10 - i // 10)} {i}%**")
+            await asyncio.sleep(0.1)  # Reduced delay for faster animation
+
+        await baby.delete()
+
+        await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
+        await asyncio.sleep(1)  # Short delay before sending video
+
+        await send_start_video(message.chat.id)
+
+        await message.reply_text(
+            text=_["start_2"].format(message.from_user.mention, app.mention),
+            reply_markup=InlineKeyboardMarkup(out),
         )
+
+        if await is_on_off(2):
+            await app.send_message(
+                chat_id=config.LOGGER_ID,
+                text=(
+                    f"{message.from_user.mention} started the bot.\n\n"
+                    f"<b>User ID:</b> <code>{message.from_user.id}</code>\n"
+                    f"<b>Username:</b> @{message.from_user.username}"
+                ),
+            )
 
 
 @app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
@@ -85,10 +157,8 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
 
-    # Send the start video first
     await send_start_video(message.chat.id)
 
-    # Send the text message with buttons
     await message.reply_text(
         text=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
@@ -128,10 +198,8 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
 
-                # Send the start video first
                 await send_start_video(message.chat.id)
 
-                # Send the welcome text message
                 await message.reply_text(
                     text=_["start_3"].format(
                         message.from_user.first_name,
