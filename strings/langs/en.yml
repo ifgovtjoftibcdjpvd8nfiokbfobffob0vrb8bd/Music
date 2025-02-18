@@ -85,8 +85,7 @@ admin_39 : "» ʀᴇᴍᴏᴠᴇᴅ 1 ᴜᴘᴠᴏᴛᴇ."
 admin_40 : "ᴜᴘᴠᴏᴛᴇᴅ."
 
 start_1 : "{0} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n<b>✫ ᴜᴘᴛɪᴍᴇ :</b> {1}"
-start_2 : "<blockquote><b>Hey there! I'm {1}, a latest music bot for playing songs in voice chat.\n──────────────────\n 
-๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs</blockquote>\n\n<blockquote><b>❖ 𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
+start_2 : "<blockquote><b>Hey there! I'm {1}, a latest music bot for playing songs in voice chat.\n──────────────────\n๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs</blockquote>\n\n<blockquote><b>❖ 𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : [Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
 start_3 : "ʜᴇʏ {0},\nᴛʜɪs ɪs {1}\n\nᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {2}, {3} ᴄᴀɴ ɴᴏᴡ ᴩʟᴀʏ sᴏɴɢs ɪɴ ᴛʜɪs ᴄʜᴀᴛ."
 start_4 : "🎄 <b>sᴜᴘᴇʀɢʀᴏᴜᴘ ɴᴇᴇᴅᴇᴅ</b> 🎄\n\nᴘʟᴇᴀsᴇ ᴄᴏɴᴠᴇʀᴛ ʏᴏᴜʀ <b>ɢʀᴏᴜᴘ</b> ᴛᴏ <b>sᴜᴘᴇʀɢʀᴏᴜᴘ</b> ᴀɴᴅ ᴛʜᴇɴ ᴀᴅᴅ ᴍᴇ ᴀɢᴀɪɴ.\n\n<b>ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ sᴜᴘᴇʀɢʀᴏᴜᴘ ?</b>\n- ᴍᴀᴋᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴄʜᴀᴛ ʜɪsᴛᴏʀʏ <b>ᴠɪsɪʙʟᴇ</b> ᴏɴᴄᴇ."
 start_5 : "<b>↝ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ ↜</b>\n\nᴛʜɪs ᴄʜᴀᴛ ɪs ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴏɴ {0} ᴅᴀᴛᴀʙᴀsᴇ.\nʀᴇǫᴜᴇsᴛ ᴀ <a href={1}>sᴜᴅᴏ ᴜsᴇʀ</a> ᴛᴏ ᴜɴʙʟᴀᴄᴋʟɪsᴛ ʏᴏᴜʀ ᴄʜᴀᴛ ᴏʀ ᴠɪsɪᴛ <a href={2}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.</a>"
@@ -175,8 +174,8 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> 𝖴𝗇𝗄𝗇𝗈𝗐𝗇 𝖣
 queue_7 : "\n𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗈𝗐 𝖳𝗈 𝖦𝖾𝗍 𝖶𝗁𝗈𝗅𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖫𝗂𝗌𝗍 ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n💞 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n💮 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🌼 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ᴍ𝛊 𝐌𝛖𝛊𝚜𝛆‧₊˚ 🍓</b></blockquote>\n\n<b><blockquote>💝 𝑻𝒊𝒕𝒍𝒆 :</b> <a href={0}>{1}</a>\n<b>🦋 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🌸 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑩𝒚 :</b> {3}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
-stream_2 : "<blockquote><b>.° ༘🎧⋆🖇₊˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ᴍ𝛊 𝐌𝛖𝛊𝚜𝛆‧₊˚ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ :  [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
+stream_1 : "<blockquote><b>.°🎧⋆˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ꪑ𝛊 𝐌𝛖𝛊𝚜𝛆୧˚🍓</b></blockquote>\n\n<b><blockquote>💝 𝑻𝒊𝒕𝒍𝒆 :</b> <a href={0}>{1}</a>\n<b>🦋 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏 :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🌸 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑩𝒚 :</b> {3}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ : [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
+stream_2 : "<blockquote><b>.°🎧⋆˚ෆ𓍢ִ໋🌷͙֒₊˚*ੈ♡⸝⸝🪐༘⋆𝐊𝛖𝚛𝛖ꪑ𝛊 𝐌𝛖𝛊𝚜𝛆୧ 🍓</b></blockquote>\n\n<blockquote>☘ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>💝 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>\n\n<blockquote><b>❖ 𝐏ᴏᴡᴇʀ 𝐁ʏ :  [ Bᴇᴀsᴛ Tᴜʜɪɴ](https://t.me/Real_Dazai)</b></blockquote>"
 
 
 CLOSE_BUTTON  : "ᯤ 𝐂ʟᴏsᴇ ᯤ"
@@ -186,10 +185,10 @@ BACK_BUTTON : "ᯤ 𝐁ᴀᴄᴋ ᯤ"
 PL_B_1 : "𝖬𝖾𝗇𝗎 📥"
 S_B_1 : "𝐀ᴅᴅ 𝐌ᴇ"
 S_B_2 : "𝐒ᴜᴘᴘᴏʀᴛ 𝐆ʀᴏᴜᴘ"
-S_B_3 : "𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ"
-S_B_4 : "𝐇ᴇʟᴘ & 𝐂ᴏᴍᴍᴀɴᴅs"
+S_B_3 : "𝗔𝗗𝗗 𝗕𝗢𝗧"
+S_B_4 : "𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦"
 S_B_5 : "𝐎ᴡɴᴇʀ"
-S_B_6 : "𝐔ᴘᴅᴀᴛᴇs 𝐂ʜᴀɴɴᴇʟ"
+S_B_6 : "𝗨𝗣𝗗𝗔𝗧𝗘𝗦"
 S_B_8 : "• 𝐘ᴏᴜᴛᴜʙᴇ •"
 S_B_9 : "• 𝐒ᴜᴩᴩᴏʀᴛ 🍀"
 
