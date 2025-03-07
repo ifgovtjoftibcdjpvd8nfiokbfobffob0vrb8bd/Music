@@ -130,7 +130,7 @@ async def start_pm(client, message: Message, _):
 
         await baby.delete()
 
-        await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE)
+        await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
         await asyncio.sleep(1)  # Short delay before sending video
 
         await send_start_video(message.chat.id)
