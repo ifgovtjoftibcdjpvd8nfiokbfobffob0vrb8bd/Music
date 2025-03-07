@@ -52,7 +52,7 @@ async def start_pm(client, message: Message, _):
 
         if name.startswith("help"):
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
+            await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
             await asyncio.sleep(1)  # Short delay before sending video
             await send_start_video(message.chat.id)
             return await message.reply_text(
@@ -130,7 +130,7 @@ async def start_pm(client, message: Message, _):
 
         await baby.delete()
 
-        await message.reply_sticker("CAACAgUAAxkBAAEN1VxntHV8PA9Cl2EHOH852LXr8EnS4AAC7RsAAlTjqFWxscXm9hJhvDYE")
+        await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE)
         await asyncio.sleep(1)  # Short delay before sending video
 
         await send_start_video(message.chat.id)
