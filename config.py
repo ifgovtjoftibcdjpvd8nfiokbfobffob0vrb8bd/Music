@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = "28928028"
-API_HASH = "b097202e877124392f4851d215fa8f3a"
+API_ID = "23568641"
+API_HASH = "a39098e8752a45c2d6d1889941547bbc"
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = "7833291072:AAEn_HE-Z0mtHkITLzO1gT_nXc9mRjRNLnw"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URI = "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 
@@ -25,7 +25,7 @@ ADS_MODE = getenv("ADS_MODE", None)
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002323856532"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7678359785))
+OWNER_ID = int(getenv("OWNER_ID", 8177810307))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/my_every_footstep")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_Chat_Group_Weeb")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RIYA_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RIYA_CHAT_SUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
