@@ -14,7 +14,7 @@ API_HASH = "a39098e8752a45c2d6d1889941547bbc"
 BOT_TOKEN = "7833291072:AAEn_HE-Z0mtHkITLzO1gT_nXc9mRjRNLnw"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://theriyamusic94:f67KlgTyzr3TTutn@cluster0.lym5x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://Lord_ichigo:Roshni@cluster0.ytuss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 
@@ -80,7 +80,7 @@ autoclean = []
 confirmer = {}
 
 START_VIDEO_URL = getenv(
-    "START_VIDEO_URL", "https://files.catbox.moe/9z4hr1.mp4"
+    "START_VIDEO_URL", "https://files.catbox.moe/akyeq2.mp4"
 )
 START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/8rg2ht.jpg"
