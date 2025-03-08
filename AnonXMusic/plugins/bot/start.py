@@ -122,14 +122,6 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
 
-        # Improved Loading Animation
-        baby = await message.reply_text("**▒▒▒▒▒▒▒▒▒▒ 0%**")
-        for i in range(10, 110, 10):
-            await baby.edit_text(f"**{'█' * (i // 10)}{'▒' * (10 - i // 10)} {i}%**")
-            await asyncio.sleep(0.1)  # Reduced delay for faster animation
-
-        await baby.delete()
-
         await message.reply_sticker("CAACAgEAAxkBAAEN0vZns5KGwkPUDlEZUuoCkwvQ6MU1CQACxwIAAnDiIERPrFJr4Ots5DYE")
         await asyncio.sleep(1)  # Short delay before sending video
 
