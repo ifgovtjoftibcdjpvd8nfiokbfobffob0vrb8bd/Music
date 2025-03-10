@@ -34,7 +34,7 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
 # Telegram Support & Channels
 SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/Beast_Tuhin")
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/Riya_Support_Chat")
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/Indian_Anime_Chat_Group")
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", None))
 
